@@ -44,9 +44,10 @@ BUSD: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
 CAKE: 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82
 ```
 
-## 其他
+## Remix国内加速版
 
-```
-Remix国内加速版: https://remix.jishutuan.com
-TG电报群: https://t.me/dexmax8
-```
+https://remix.jishutuan.com
+
+## TG电报群
+
+https://t.me/dexmax8
