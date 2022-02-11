@@ -2,15 +2,22 @@
 
 支持分红SHIB/ETH/USDT/DOGE等BSC所有代币。
 
-## 编译参数:
+## 源码
+```
+Github: https://github.com/misu2022/contracts/blob/master/RedKing.sol
+
+百度网盘: https://pan.baidu.com/s/1y0cBlwQYrS6lohWjKLZpGw 提取码: e730 
+```
+
+## 编译/开源参数
 
 ```
 COMPILER: v0.8.7+commit.e28d00a7.js
 Enable optimization: 开启并使用默认值200
-
+Other Settings: default evmVersion, MIT license
 ```
 
-## 部署参数:
+## 部署参数
 
 CONTRACT 选择 `RedKing`，Value 填写 `200000000000000000`
 
