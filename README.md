@@ -6,6 +6,10 @@
 
 https://github.com/misu2022/contracts/blob/master/RedKing.sol
 
+## 实战视频讲解
+
+https://youtu.be/trql3DDUb4Q
+
 ## 编译/开源参数
 
 ```
