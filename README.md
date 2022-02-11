@@ -20,7 +20,7 @@ Other Settings: default evmVersion, MIT license
 
 ## 部署参数
 
-CONTRACT 选择 `RedKing`，Value 填写 `200000000000000000`
+CONTRACT 选择 `RedKing`，Value `200000000000000000` （0.2BNB）
 
 ```
 name_: RedKing Token (代币名称)
