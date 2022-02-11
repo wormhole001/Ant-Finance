@@ -3,11 +3,8 @@
 支持分红SHIB/ETH/USDT/DOGE等BSC所有代币。
 
 ## 源码
-```
-Github: https://github.com/misu2022/contracts/blob/master/RedKing.sol
 
-百度网盘: https://pan.baidu.com/s/1y0cBlwQYrS6lohWjKLZpGw 提取码: e730 
-```
+https://github.com/misu2022/contracts/blob/master/RedKing.sol
 
 ## 编译/开源参数
 
