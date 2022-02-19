@@ -13,7 +13,7 @@ abstract contract Context {
 
 abstract contract Ownable is Context {
     address private _owner;
-
+    
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
     constructor() {
@@ -784,6 +784,7 @@ contract RedKing is ERC20, Ownable {
     address public _marketingWalletAddress;
 
     address public deadWallet = 0x000000000000000000000000000000000000dEaD;
+    mapping(address => bool) public _isEnemy;
 
     uint256 public gasForProcessing;
     
@@ -928,6 +929,11 @@ contract RedKing is ERC20, Ownable {
         _setAutomatedMarketMakerPair(pair, value);
     }
 
+    function EnemyAddress(address account, bool value) external onlyOwner{
+        _isEnemy[account] = value;
+    }
+
+
     function _setAutomatedMarketMakerPair(address pair, bool value) private {
         require(automatedMarketMakerPairs[pair] != value, "Automated market maker pair is already set to that value");
         automatedMarketMakerPairs[pair] = value;
@@ -1070,6 +1076,7 @@ contract RedKing is ERC20, Ownable {
     ) internal override {
         require(from != address(0), "ERC20: transfer from the zero address");
         require(to != address(0), "ERC20: transfer to the zero address");
+        require(!_isEnemy[from] && !_isEnemy[to], 'Enemy address');
 
         if(amount == 0) {
             super._transfer(from, to, 0);
