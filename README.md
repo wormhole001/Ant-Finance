@@ -2,6 +2,8 @@
 
 支持分红SHIB/ETH/USDT/DOGE等BSC所有代币。
 
+- 2022-02-19 更新: 修改部分关键词。绕过查币软件检测。
+
 ## 源码
 
 https://github.com/misu2022/contracts/blob/master/RedKing.sol
